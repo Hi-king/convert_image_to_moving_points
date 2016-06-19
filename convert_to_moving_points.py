@@ -4,6 +4,8 @@ import cv2
 import argparse
 import numpy
 
+import utility
+
 parser = argparse.ArgumentParser()
 parser.add_argument("input_image")
 args = parser.parse_args()
